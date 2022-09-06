@@ -36,7 +36,7 @@ const UserRegister = ({ setAlert, register, isUserAuthenticated }) => {
             <Container>
                 <Wrap>
                     <Left>
-                    <h1>Enter Your Details</h1>
+                    <h1>We need some of your details for Appointment System</h1>
                     <form onSubmit={e => onSubmit(e)}>
                                 <div className="form-group">
                                 <label className="label" for="exampleInputEmail1">Email address</label>
@@ -151,11 +151,12 @@ const Left = styled.div`
 	align-items: center;
 	}
 	label{
-		font-size: 18px;
+		font-size: 12px;
 	}
     h1{
-		font-size: 40px;
-        margin-bottom: 20px;
+		font-size: 30px;
+		padding: 10px;
+		text-align: center;
 
 	}
 	input{

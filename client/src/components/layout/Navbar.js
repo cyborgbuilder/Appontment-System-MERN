@@ -93,7 +93,7 @@ const Navbar = (
                     <li className="nav-item active">
                         <Link to="/profiles" className="nav-link">Doctors</Link>
                     </li>
-                    {/* <li className="nav-item dropdown active">
+                    <li className="nav-item dropdown active">
                             <Link className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Log in
                             </Link>
@@ -101,14 +101,14 @@ const Navbar = (
                                 <Link className="dropdown-item" to="/loginUser"><i className="fas fa-users"></i> Login as User</Link>
                                 <Link className="dropdown-item" to="/loginDoctor"><i className="fas fa-user-md"></i> Login as Doctor</Link>
                             </div>
-                        </li> */}
+                        </li>
                     <li className="nav-item dropdown active">
                             <Link className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Register
+                                Enter
                             </Link>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <Link className="dropdown-item" to="/registerUser"><i className="fas fa-users"></i> Register as User</Link>
-                                <Link className="dropdown-item" to="/registerDoctor"><i className="fas fa-user-md"></i> Register as Doctor</Link>
+                                <Link className="dropdown-item" to="/registerUser"><i className="fas fa-users"></i> Enter as User</Link>
+                                <Link className="dropdown-item" to="/registerDoctor"><i className="fas fa-user-md"></i> Enter as Doctor</Link>
                             </div>
                         </li>
                 </ul>
